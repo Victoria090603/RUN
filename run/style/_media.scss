@@ -1,0 +1,286 @@
+@media (max-width : 1250px){
+    .container{
+        max-width: 950px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-about p{
+        padding-left: 30px;
+    }
+    .section-about h1,
+    h2{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .section-team .swiper-slide {
+        width: 515px;
+        height: 350px;
+    }
+    .section-team .swiper-wrapper{
+        max-width: 890px;
+    }
+    .section-team .button-wrap {
+        max-width: 895px;
+    }
+    .section-races .col-l{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .section-races .col-r{
+        width: 100%;
+        padding-left: 0;
+    }
+    .section-races .col-r .text{
+        padding-right: 40px;
+    }
+    .section-partner .item-partner{
+        height: 110px;
+    }
+    header .logo{
+        width: 210px;
+    }
+    header.scroll .logo{
+        width: 150px;
+    }
+}
+@media (max-width : 991px){
+    .container{
+        max-width: 750px;
+    }
+    .section-about h1{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+    .section-about p{
+        padding-left: 0;
+        width: 100%;
+    }
+    .section-team .swiper-wrapper{
+        max-width: 690px;
+    }
+    .section-team .button-wrap{
+        max-width: 695px;
+    }
+    .section-team .swiper-button-prev, .section-team .swiper-button-next{
+        width: 60px;
+        height: 60px;
+    }
+    .section-team .button-wrap::after{
+        display: none;
+    }
+    .section-team .button-wrap{
+        margin-top: -59px;
+    }
+    .section-races .logo-wrap {
+        width: 300px;
+        height: 180px;
+    }
+    .section-races .col-r .text{
+        width: calc(100% - 300px);
+        padding-right: 25px;
+    }
+    .section-races .btn-visit {
+        margin-top: 30px;
+    }
+    .section-partner .item-partner{
+        width: calc(33.333% - 13.4px);
+        margin-right: 20px !important;
+    }
+    .section-partner .item-partner:nth-child(3n){
+        margin-right: 0 !important;
+    }
+    .section-partner .item-partner {
+        height: 160px;
+    }
+    .section-contact .col-form{
+        width: 100%;
+        padding-left: 0;
+        margin-top: 45px;
+    }
+    .section-contact .col-logo{
+        margin: 0 auto;
+    }
+    footer .row-footer{
+        padding: 33px 0px 30px;
+    }
+    .menu{
+        position: fixed;
+        background: #fff;
+        transition: all .3s;
+        padding: 100px 60px 60px;
+        z-index: 9;
+        right: -70%;
+        bottom: 0;
+        top: 0;
+        width: 70%;
+    }
+    header.scroll{
+        backdrop-filter: unset;
+    }
+    .open-menu{
+        overflow: hidden;
+        &::after{
+            content: '';
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.3);
+            z-index: 1;
+        }
+        .menu{
+            right: 0%;
+        }
+        .btn-menu span{
+            background: #2A2B30;
+            &:nth-child(1){
+                transform: rotate(45deg);
+                top: 9px;
+            }
+            &:nth-child(2){
+                opacity: 0;
+            }
+            &:nth-child(3){
+                transform: rotate(-45deg);
+                bottom: 8px;
+            }
+        }
+       
+    }
+    .btn-menu{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+        z-index: 10;
+    }
+    header .row{
+        position: relative;
+    }
+    .section-team .swiper-button-prev::after, .section-team .swiper-button-next::after{
+        opacity: 1;
+    }
+    header .menu ul{
+        flex-direction: column;
+        
+    }
+    header .menu ul li + li{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    header .menu ul a{
+        color: #2A2B30;
+        font-size: 24px;
+    }
+}
+@media (max-width : 767px){
+    .container{
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    header .logo {
+        width: 175px;
+    }
+    .section-races .col-r .text{
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 25px;
+    }
+    .section-races .logo-wrap{
+        width: 100%;
+        height: 175px;
+        padding: 35px;
+    }
+    .section-races .col-l{
+        margin-bottom: 25px;
+    }
+    body{
+        font-size: 14px;
+    }
+    p{
+        line-height: 24px;
+    }
+    .btn-menu {
+        width: 30px;
+        height: 20px
+    }
+    header{
+        padding: 25px 0px;
+    }
+    header .logo {
+        width: 130px;
+    }
+    header.scroll .logo {
+        width: 100px;
+    }
+    .menu{
+        width: 85%;
+        right: -85%;
+        padding: 100px 30px 60px;
+        overflow: auto;
+    }
+    .top-banner {
+        height: 440px;
+        max-height: 80vh;
+    }
+    .section-about h1, h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .section-about h1{
+        margin-bottom: 15px;
+    }
+    .section-team .swiper-slide {
+        width: 300px;
+        height: 210px;
+    }
+    .section-team .swiper-wrapper{
+        max-width: calc(100% - 40px);
+    }
+    .section-team .button-wrap {
+        margin-top: 15px;
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .section-races .separator{
+        margin-bottom: 30px;
+    }
+    .section-races .btn-visit{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .section-partner .item-partner{
+        width: calc(50% - 10px);
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }
+    .row-partner{
+        justify-content: space-between;
+    }
+    .section-partner h2{
+        margin-bottom: 20px;
+    }
+    .section-contact .col-form .col-input, .section-contact .col-form .col-textarea{
+        width: 100%;
+    }
+    .section-contact .col-form .col-input{
+        margin-right: 0;
+    }
+    .section-contact .btn{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .section-contact .col-form input{
+        margin-bottom: 25px;
+    }
+    header.scroll {
+        background-color: #2c3f58eb;
+    }
+}
